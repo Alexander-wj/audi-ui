@@ -1,0 +1,19 @@
+.headline-right {
+  padding: 10px 20px;
+  font-family: $font__family--basic;
+  &__header {
+    font-size: 20px;
+  }
+  &__content {
+    font-size: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__link {
+    font-size: 20px;
+    color: white;
+    &:hover {
+      color: aqua;
+    }
+  }
+}

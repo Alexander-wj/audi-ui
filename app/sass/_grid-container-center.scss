@@ -1,0 +1,44 @@
+.buttons-content {
+  padding: 20px;
+  font-family: $font__family--basic;
+
+  &__text {
+    font-size: 35px;
+  }
+
+  &__content {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+
+  .button-place {
+    position: relative;
+    top: 240px;
+  }
+
+  &__primary {
+    display: block;
+    font-size: 30px;
+    background-color: #333333;
+    padding: 20px 150px;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    &:hover{
+      background-color: slategray;
+    }
+  }
+  
+  &__secondary {
+    display: block;
+    font-size: 30px;
+    background-color: white;
+    padding: 20px 150px;
+    color: #000000;
+    border: 1px solid black;
+    cursor: pointer;
+    &:hover{
+      background-color: slategray;
+    }
+  }
+  }

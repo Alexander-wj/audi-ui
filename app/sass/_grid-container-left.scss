@@ -1,0 +1,19 @@
+.headline {
+  font-family: $font__family--basic;
+  padding: 20px;
+  &__date {
+    font-size: 20px;
+  }
+  &__head {
+    font-size: 40px;
+    letter-spacing: -0.015em;
+    margin: 0 auto;
+    
+  }
+  &__content {
+    padding-right: 30px;
+    font-size: 30px;
+    letter-spacing: -0.015em;
+    margin: 0 auto;
+  }
+}

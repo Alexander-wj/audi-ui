@@ -1,0 +1,10 @@
+.headline-bottom {
+  padding: 20px;
+  font-family: $font__family--basic;
+  &__head {
+    font-size: 30px;
+  }
+  &__date {
+    font-size: 20px;
+  }
+}

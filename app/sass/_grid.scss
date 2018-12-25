@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr 5px 1fr;
+  grid-template-rows: 100vh;
+  justify-content: space-between;
+  
+}
+
+.grid-container-left {
+  background: url(../app/img/card-left.jpg) no-repeat right;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.vertical-bar {
+  background-color: #f2f2f2;
+}
+
+.grid-container-center {
+  background: #ffffff;
+}
+
+.grid-container {
+  background-color: aqua;
+}
+
+.grid-container-right {
+  display: grid;
+  grid-template-rows: 1fr 5px 1fr;
+  grid-template-columns: auto;
+  justify-items: space-between;
+}
+
+.grid-container-right-top {
+  background-color: #bb0a30;
+  color: #ffffff;
+}
+
+.horizontal-bar {
+  background-color: #f2f2f2;
+}
+
+.grid-container-right-bottom {
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+}
+
+.grid-container-right-bottom-left {
+  background-color: #ffffff;
+}
+.vertical-bar-left-small {
+  background-color: #f2f2f2;
+}
+
+.grid-container-right-bottom-right {
+  background-color: #ffffff;
+}

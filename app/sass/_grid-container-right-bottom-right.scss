@@ -1,0 +1,11 @@
+.headline-model {
+  padding: 20px;
+  text-align: center;
+  &__head {
+    font-size: 90px;
+    margin: 0 auto;
+  }
+  &__content {
+    font-size: 20px;
+  }
+}
